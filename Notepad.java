@@ -18,8 +18,8 @@ class Notepad implements ActionListener
 	JDialog fontd;
 	JComboBox fontCb1,fontCb2,fontCb3;
 	String font[]={"Times New Roman","jokerman","verdana","Monotype Corsiva","Old English Text MT"};
-	String style[]={"Reglar","Bold","Italic"};
 	String size[]={"24","16","18","20","22","26"};
+	String style[]={"Reglar","Bold","Italic"};
 	String str1,str2,str3,str4,str5,str7=" ",str8="",str9="",str6="";
 	int len,len1;
 	String months[]={
@@ -29,7 +29,7 @@ class Notepad implements ActionListener
 	GregorianCalendar gcalendar;
 	Notepad()
 	{ 
-	fr=new JFrame("Ravi's Notepad");
+	fr=new JFrame("My Notepad");
 	fr.setSize(800,500);
 	tf=new JTextArea();
 	fr.add(tf);
